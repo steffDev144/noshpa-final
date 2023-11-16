@@ -1,0 +1,18 @@
+// @media for vw
+
+$media-list: (
+		'xxs': 375,
+		'xs': 560,
+		'sm': 800,
+		'md': 992,
+		'mdHeader': 1079,
+		'lg': 1279,
+		'xl': 1599,
+		'xxl': 1920
+);
+
+// colors
+
+$standart-gray: #151B28;
+$medium-gray: #2E3545;
+$light-gray: #5F6D7E;
