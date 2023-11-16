@@ -1,8 +1,42 @@
 @font-face {
-    font-family: "Evolenta";
+    font-family: "FuturaPT";
     src:
-      url("../fonts/Evolenta-Bold.ttf") format("ttf"),
-      url("../fonts/Evolenta-Bold.otf") format("otf"),
-      url("../fonts/Evolenta-Bold.woff") format("woff");
-      font-weight: 700;
+      url("../fonts/FuturaPT-Book.ttf") format("ttf"),
+      url("../fonts/FuturaPT-Book.otf") format("otf"),
+      url("../fonts/FuturaPT-Book.woff") format("woff"),
+      url("../fonts/FuturaPT-Book.woff2") format("woff2");
+      font-weight: "book";
+  }
+  @font-face {
+    font-family: "FuturaPT";
+    src:
+      url("../fonts/FuturaPT-Demi.ttf") format("ttf"),
+      url("../fonts/FuturaPT-Demi.otf") format("otf"),
+      url("../fonts/FuturaPT-Demi.woff") format("woff"),
+      url("../fonts/FuturaPT-Demi.woff2") format("woff2");
+      font-weight: "demi";
+  }
+  @font-face {
+    font-family: "FuturaPT";
+    src:
+      url("../fonts/FuturaPT-Medium.ttf") format("ttf"),
+      url("../fonts/FuturaPT-Medium.otf") format("otf"),
+      url("../fonts/FuturaPT-Medium.woff") format("woff"),
+      url("../fonts/FuturaPT-Medium.woff2") format("woff2");
+      font-weight: "medium";
+  }
+  @font-face {
+    font-family: "FuturaPT";
+    src:
+      url("../fonts/FuturaPT-MediumObl.ttf") format("ttf"),
+      url("../fonts/FuturaPT-MediumObl.otf") format("otf"),
+      url("../fonts/FuturaPT-MediumObl.woff") format("woff"),
+      url("../fonts/FuturaPT-MediumObl.woff2") format("woff2");
+      font-weight: "mediumItalic";
+  }
+  @font-face {
+    font-family: "OksFree";
+    src:
+      url("../fonts/OksFree.otf") format("otf");
+      font-weight: 400;
   }
