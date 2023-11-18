@@ -1,0 +1,33 @@
+.descr {
+    position: relative;
+    padding: vw(113) 0 vw(50) 0;
+    &__text {
+        color: $main-color;
+        font-size: vw(28);
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 auto;
+        width: vw(1148);
+    }
+    &__tablet {
+        &_left {
+            position: absolute;
+            height: vw(178);
+            left: vw(103);
+            bottom: vw(50);
+            filter: drop-shadow(0px 20px 20px #EFA7B2);
+            transform: rotate(-24.5deg);
+        }
+        &_right {
+            position: absolute;
+            transform: rotate(10.5deg);
+            filter: drop-shadow(0px 20px 20px #EFA7B2);
+            border-radius: 100%;
+            height: vw(110);
+            width: vw(110);
+            right: vw(55);
+            top: vw(93);
+        }
+    }
+}

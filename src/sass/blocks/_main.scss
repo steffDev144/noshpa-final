@@ -1,0 +1,86 @@
+.main {
+    position: relative;
+    width: 100%;
+    min-height: vw(800);
+    background: url('../img/main-bg.png') center (center/cover) no-repeat;
+    &__title {
+        position: absolute;
+        z-index: 6;
+        top: vw(185);
+        left: vw(376);
+        width: vw(543);
+        height: vw(543);
+        border-radius: 100%;
+        padding: vw(93) vw(39) vw(65) vw(108);
+        background: #F1F1EF;
+        box-shadow: 0px 30px 60px 0px #E58DAB;
+        span {
+            color: $main-color;
+            font-size: vw(48);
+            font-size: vw(48);
+            font-style: normal;
+            font-weight: 500;
+            line-height: 120%;
+        }
+    }
+    &__text {
+        position: absolute;
+        width: vw(761);
+        height: vw(242);
+        top: vw(64);
+        left: vw(274);
+        z-index: 5;
+    }
+    &__text2 {
+        position: absolute;
+        width: vw(658);
+        height: vw(517);
+        top: vw(64);
+        right: vw(268);
+        z-index: 5;
+    }
+    &__tablet {
+        &_left {
+            position: absolute;
+            bottom: vw(105);
+            left: vw(40);
+            width: vw(87);
+            height: vw(87);
+            filter: drop-shadow(5px 10px 20px #EFA7B2);
+            img {
+                transform: rotate(53deg);
+                
+            }
+        }
+        
+        &_right {
+            position: absolute;
+            bottom: vw(50);
+            right: vw(93);
+            width: vw(95);
+            height: vw(95);
+            filter: drop-shadow(5px 10px 20px #EFA7B2);
+            img {
+                transform: rotate(114deg);
+            }
+        }
+        &_center {
+            position: absolute;
+            top: vw(273);
+            right: vw(262);
+            height: vw(178);
+            filter: drop-shadow(0px 20px 20px #EFA7B2);
+            img {
+                transform: rotate(24deg);
+            }
+        }
+    }
+    .line {
+        position: absolute;
+        z-index: 5;
+        width: 100%;
+        height: vw(308);
+        bottom: 0;
+        left: 0;
+    }
+}

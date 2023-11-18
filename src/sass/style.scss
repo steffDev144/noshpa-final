@@ -3,6 +3,11 @@
 @import "./main/_functions";
 @import "./main/_fonts";
 
+
+@import "./blocks/_main";
+@import "./blocks/_descr";
+@import "./blocks/_tabs";
+
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +21,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
 }
 
 .container {
