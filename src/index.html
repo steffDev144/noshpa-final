@@ -14,10 +14,10 @@
         <img src="./icons/main-text-white.png" alt="main__text" class="main__text" data-aos="fade-down">
         <img src="./icons/main-text-black.png" alt="main__text2" class="main__text2" data-aos="fade-down">
         <div class="main__title" data-aos="zoom-in">
-            <span>Как не идти а компромисс с болью и хорошо себя чувствовать в любой период жизни</span>
+            <span>Как не идти на компромисс с болью и хорошо себя чувствовать в любой период жизни</span>
         </div>
         <div class="main__tablet_left" data-aos="zoom-in">
-            <img src="./icons/tablet-circle.png" alt="ablet-left">
+            <img src="./icons/tablet-circle.png" alt="tablet-left">
         </div>
         <div class="main__tablet_center" data-aos="fade-down-left">
             <img src="./icons/tablet.png" alt="tablet-center">
@@ -52,9 +52,9 @@
     <section class="tabs">
         <div class="container">
             <ul class="tabs__head">
-                <li class="tabs__head_tab" data-aos="fade-right">18-30</li>
-                <li class="tabs__head_tab" data-aos="zoom-in">31-45</li>
-                <li class="tabs__head_tab" data-aos="fade-left">45+</li>
+                <li class="tabs__head_tab tabs__tab" data-age="0" data-aos="fade-right">18-30</li>
+                <li class="tabs__head_tab tabs__tab" data-age="1" data-aos="zoom-in">31-45</li>
+                <li class="tabs__head_tab tabs__tab" data-age="2" data-aos="fade-left">45+</li>
             </ul>
             <div class="tabs__content">
                 <div class="tabs__problems">
@@ -153,9 +153,9 @@
                     </ul>
                     <div class="tabs__btns">
                         <a href="#" class="tabs__info_btn btn-spas" data-aos="fade-up">подобрать спазмолитик</a>
-                        <div class="tabs__info_btn2 tabs__head_tab" data-aos="fade-up">18-30</div>
-                        <div class="tabs__info_btn2 tabs__head_tab" data-aos="fade-up">31-45</div>
-                        <div class="tabs__info_btn2 tabs__head_tab" data-aos="fade-up">45+</div>
+                        <div class="tabs__info_btn2 tabs__head_tab tabs__tab" data-age="0" data-aos="fade-up">18-30</div>
+                        <div class="tabs__info_btn2 tabs__head_tab tabs__tab" data-age="1" data-aos="fade-up">31-45</div>
+                        <div class="tabs__info_btn2 tabs__head_tab tabs__tab" data-age="2" data-aos="fade-up">45+</div>
                     </div>
                 </div>
             </div>
@@ -240,9 +240,9 @@
                         </li>
                     </ul>
                     <ul class="tabs__head tabs__bottom">
-                        <li class="tabs__head_tab tabs__bottom_tab" data-aos="fade-right">18-30</li>
-                        <li class="tabs__head_tab tabs__bottom_tab" data-aos="zoom-in">31-45</li>
-                        <li class="tabs__head_tab tabs__bottom_tab" data-aos="fade-left">46-50+</li>
+                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="0" data-aos="fade-right">18-30</li>
+                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="1" data-aos="zoom-in">31-45</li>
+                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="2" data-aos="fade-left">46-50+</li>
                     </ul>
                 </div>
             </div>
@@ -321,9 +321,9 @@
                             вариантов — препараты с дротаверином.</li>
                     </ul>
                     <ul class="tabs__head tabs__bottom">
-                        <li class="tabs__head_tab tabs__bottom_tab" data-aos="fade-right">18-30</li>
-                        <li class="tabs__head_tab tabs__bottom_tab" data-aos="zoom-in">31-45</li>
-                        <li class="tabs__head_tab tabs__bottom_tab" data-aos="fade-left">46-50+</li>
+                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="0" data-aos="fade-right">18-30</li>
+                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="1" data-aos="zoom-in">31-45</li>
+                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="2" data-aos="fade-left">46-50+</li>
                     </ul>
                 </div>
             </div>
@@ -368,11 +368,12 @@
 
         <div class="calc__test">
             <div class="calc__test_block">
-                <div class="calc__test_block_wrap">
+                <div class="calc__test_block_wrap" data-aos="fade-down">
                     <h5 class="calc__test_subtitle" data-aos="fade-down">Как часто вас беспокоят боли?</h5>
-                    <div class="calc__test_item" data-aos="fade-down">Несколько раз в год во время месячных, но не в каждом цикле</div>
-                    <div class="calc__test_item" data-aos="fade-down">Каждый месяц</div>
-                    <div class="calc__test_item calc__test_item-active" data-aos="fade-down">Почти всегда</div>
+
+                    <div class="calc__test_item" data-calc="1">Несколько раз в год во время месячных, но не в каждом цикле</div>
+                    <div class="calc__test_item" data-calc="2">Каждый месяц</div>
+                    <div class="calc__test_item calc__test_item-active" data-calc="3">Почти всегда</div>
                 </div>
                 <div class="calc__line_shadow-left" >
                     <img src="./icons/line-shadow-calc-left.png" alt="calc__line_shadow-left" data-aos="fade-up">
@@ -386,11 +387,12 @@
                 </div>
             </div>
             <div class="calc__test_block">
-                <div class="calc__test_block_wrap">
+                <div class="calc__test_block_wrap" data-aos="fade-down">
                     <h5 class="calc__test_subtitle" data-aos="fade-down">Давно ли они появились?</h5>
-                    <div class="calc__test_item" data-aos="fade-down">В течение последнего года</div>
-                    <div class="calc__test_item" data-aos="fade-down">Несколько лет назад</div>
-                    <div class="calc__test_item" data-aos="fade-down">Боль со мной с переходного возраста</div>
+
+                    <div class="calc__test_item" data-calc="1">В течение последнего года</div>
+                    <div class="calc__test_item" data-calc="2">Несколько лет назад</div>
+                    <div class="calc__test_item" data-calc="3">Боль со мной с переходного возраста</div>
                 </div>
 
                 <div class="calc__test2_tablet" data-aos="zoom-in">
@@ -401,12 +403,13 @@
                 </div>
             </div>
             <div class="calc__test_block">
-                <div class="calc__test_block_wrap">
+                <div class="calc__test_block_wrap" data-aos="fade-down">
                     <h5 class="calc__test_subtitle" data-aos="fade-down">Где они локализуются?</h5>
-                    <div class="calc__test_item" data-aos="fade-down">Внизу живота</div>
-                    <div class="calc__test_item" data-aos="fade-down">Источник боли внизу живота, но она распространяется дальше, отдает в
+
+                    <div class="calc__test_item" data-calc="1">Внизу живота</div>
+                    <div class="calc__test_item" data-calc="2">Источник боли внизу живота, но она распространяется дальше, отдает в
                         спину или ноги</div>
-                    <div class="calc__test_item" data-aos="fade-down">Как будто болит все тело — даже голова</div>
+                    <div class="calc__test_item" data-calc="3">Как будто болит все тело — даже голова</div>
                 </div>
 
                 <div class="calc__test3_shadow"></div>
@@ -421,11 +424,12 @@
                 </div>
             </div>
             <div class="calc__test_block">
-                <div class="calc__test_block_wrap">
+                <div class="calc__test_block_wrap" data-aos="fade-down">
                     <h5 class="calc__test_subtitle" data-aos="fade-down">Как ощущается боль?</h5>
-                    <div class="calc__test_item" data-aos="fade-down">Похожа на редкие спазмы</div>
-                    <div class="calc__test_item" data-aos="fade-down">Сильные тянущие ощущения, которые почти не прекращаются</div>
-                    <div class="calc__test_item" data-aos="fade-down">Боль такая сильная и острая, что я не могу заниматься повседневными
+
+                    <div class="calc__test_item" data-calc="1">Похожа на редкие спазмы</div>
+                    <div class="calc__test_item" data-calc="2">Сильные тянущие ощущения, которые почти не прекращаются</div>
+                    <div class="calc__test_item" data-calc="3">Боль такая сильная и острая, что я не могу заниматься повседневными
                         делами</div>
                 </div>
 
@@ -437,11 +441,12 @@
                 </div>
             </div>
             <div class="calc__test_block">
-                <div class="calc__test_block_wrap">
+                <div class="calc__test_block_wrap" data-aos="fade-down">
                     <h5 class="calc__test_subtitle" data-aos="fade-down">Помогает ли что-то от нее?</h5>
-                    <div class="calc__test_item" data-aos="fade-down">Да, теплого душа или легкой растяжки вполне достаточно</div>
-                    <div class="calc__test_item" data-aos="fade-down">Мне помогают обезболивающие препараты</div>
-                    <div class="calc__test_item" data-aos="fade-down">Почти ничего не помогает</div>
+
+                    <div class="calc__test_item" data-calc="1">Да, теплого душа или легкой растяжки вполне достаточно</div>
+                    <div class="calc__test_item" data-calc="2">Мне помогают обезболивающие препараты</div>
+                    <div class="calc__test_item" data-calc="3">Почти ничего не помогает</div>
                 </div>
 
                 <div class="calc__test4_line">
@@ -455,15 +460,50 @@
                 </div>
                 <div class="calc__test4_shadow"></div>
             </div>
-            <div class="calc__result" data-aos="fade-down">
+            <div class="calc__result">
                 показать результаты
-                <div class="calc__arrow" data-aos="zoom-in-down">
+                <div class="calc__arrow">
                     <img src="./icons/Arrow.png" alt="calc__arrow">
                 </div>
             </div>
         </div>
-        <div class="calc__result">
-
+        <div class="calc__res">
+            <div class="calc__res_item">
+                <div class="calc__res_image">
+                    <img src="./icons/tabs-image-1.png" alt="calc__res_image">
+                </div>
+                <div class="calc__res_info">
+                    <div class="calc__res_title">Твоя боль — как облако, заслоняющее солнце.</div>
+                    <p class="calc__res_descr">
+                        Да, в ней мало приятного, но она абсолютно нормальна и не несет вреда — это обычный физиологический процесс. Но и терпеть ее не стоит. Могут помочь спазмолитики, не оказывающие системного действия на организм — например, дротаверин.
+                    </p>
+                    <a href="/" class="calc__res_link btn">подобрать спазмолитик</a>
+                </div>
+            </div>
+            <div class="calc__res_item">
+                <div class="calc__res_image">
+                    <img src="./icons/tabs-image-2.png" alt="calc__res_image">
+                </div>
+                <div class="calc__res_info">
+                    <div class="calc__res_title">Твоя боль — как грозовая туча.</div>
+                    <p class="calc__res_descr">
+                        Она пугает и заставляет искать хотя бы какой-то способ, чтобы защититься от нее: убежать, найти укрытие, переждать. Эффективно поможет действенный препарат на основе дротаверина, которое быстро снимает болезненные спазмы.
+                    </p>
+                    <a href="/" class="calc__res_link btn">подобрать спазмолитик</a>
+                </div>
+            </div>
+            <div class="calc__res_item">
+                <div class="calc__res_image">
+                    <img src="./icons/tabs-image-3.png" alt="calc__res_image">
+                </div>
+                <div class="calc__res_info">
+                    <div class="calc__res_title">Твоя боль похожа на ураган.</div>
+                    <p class="calc__res_descr">
+                        Она пугает, сковывает и неотвратимо надвигается — кажется, что никто и ничто не в состоянии тебя спасти. Но спасение есть — правильное обезболивающее. В твоем случае это может быть средство с дротаверином, которое почти мгновенно избавит тебя от спазмов.
+                    </p>
+                    <a href="/" class="calc__res_link btn">подобрать спазмолитик</a>
+                </div>
+            </div>
         </div>
     </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
