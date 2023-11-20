@@ -26,6 +26,7 @@
             opacity: 0;
             scale: 0;
             z-index: -100;
+            
 
             @include max(sm) {
                 opacity: 1;
@@ -437,7 +438,7 @@
                 bottom: unset;
                 left: unset;
                 top: vw2(-27);
-                right: vw2(13);
+                right: vw2(20);
                 width: vw2(98);
                 height: vw2(98);
                 filter: drop-shadow(vw2(5) vw2(10) vw2(20) #EFA7B2);
@@ -816,8 +817,14 @@
     opacity: 0;
     scale: 0;
     z-index: -200;
+    svg {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+    }
 
     @include max(sm) {
+        width: vw2(751);
         opacity: 1;
         scale: 1;
         z-index: -2;
@@ -845,8 +852,14 @@
     opacity: 0;
     scale: 0;
     z-index: -100;
+    svg {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+    }
 
     @include max(sm) {
+        width: vw2(623);
         opacity: 1;
         scale: 1;
         z-index: -2;
@@ -861,6 +874,11 @@
     position: absolute;
     top: 0;
     left: 0;
+    svg {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+    }
 
     @include max(sm) {
         z-index: -2;

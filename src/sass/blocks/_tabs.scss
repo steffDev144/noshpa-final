@@ -736,7 +736,13 @@
         top: -85%;
         left: vw(-235);
         z-index: -1;
+        svg {
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+        }
         @include max(sm) {
+            width: vw2(800);
             top: -15%;
             left: vw2(-88);
         }
@@ -821,7 +827,12 @@
         scale: 0;
         z-index: -100;
         right: vw2(-88);
-        width: bw2(346);
+        width: vw2(346);
+        svg {
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+        }
 
         @include max(sm) {
             opacity: 1;
