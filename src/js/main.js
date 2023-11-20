@@ -70,47 +70,62 @@ resultBtn.addEventListener("click", function() {
 
 
     if(countA > countB && countA > countC) {
-        calcResItem[0].style.display = "block"
+        calcResItem[0].style.display = "flex"
     }
     if(countA == countB && countA > countC) {
         bigCount = true;
-        calcResItem[0].style.display = "block"
+        calcResItem[0].style.display = "flex"
     }
     if(countA > countB && countA == countC) {
         if(!bigCount1) {
-            calcResItem[0].style.display = "block"
+            calcResItem[0].style.display = "flex"
         }
     }
 
 
 
     if(countB > countA && countB > countC) {
-        calcResItem[1].style.display = "block"
+        calcResItem[1].style.display = "flex"
     }
     if(countB == countA && countB > countC) {
         if(!bigCount) {
-            calcResItem[1].style.display = "block"
+            calcResItem[1].style.display = "flex"
         }
     }
     if(countB > countA && countB == countC) {
         bigCount1 = true;
-        calcResItem[1].style.display = "block"
+        calcResItem[1].style.display = "flex"
     }
 
 
 
     if(countC > countA && countC > countB) {
-        calcResItem[2].style.display = "block"
+        calcResItem[2].style.display = "flex"
     }
     if(countC == countA && countC > countB) {
         if(!bigCount) {
-            calcResItem[2].style.display = "block"
+            calcResItem[2].style.display = "flex"
         }
     }
     if(countC > countA && countC == countB) {
         if(!bigCount1) {
-            calcResItem[2].style.display = "block"
+            calcResItem[2].style.display = "flex"
         }
     }
 
 });
+
+const anchors = document.querySelectorAll('a[href*="#"]')
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+    
+    const blockID = anchor.getAttribute('href').substr(1);
+    
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}

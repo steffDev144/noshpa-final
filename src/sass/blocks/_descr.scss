@@ -1,6 +1,9 @@
 .descr {
     position: relative;
     padding: vw(113) 0 vw(50) 0;
+    @include max(sm) {
+        padding: vw2(203) 0 vw2(77) 0;
+    }
     &__text {
         color: $main-color;
         font-size: vw(28);
@@ -9,6 +12,11 @@
         line-height: normal;
         margin: 0 auto;
         width: vw(1148);
+        @include max(sm) {
+            width: vw2(624);
+            font-size: vw2(28);
+            
+        }
     }
     &__tablet {
         &_left {
@@ -16,18 +24,29 @@
             height: vw(178);
             left: vw(103);
             bottom: vw(50);
-            filter: drop-shadow(0px 20px 20px #EFA7B2);
+            filter: drop-shadow(0 vw(20) vw(20) #EFA7B2);
             transform: rotate(-24.5deg);
+            @include max(sm) {
+                height: vw2(164);
+                width: vw2(60);
+                left: vw2(187);
+                bottom: unset;
+                top: vw2(-116);
+                z-index: 11;
+            }
         }
         &_right {
             position: absolute;
             transform: rotate(10.5deg);
-            filter: drop-shadow(0px 20px 20px #EFA7B2);
+            filter: drop-shadow(0 vw(20) vw(20) #EFA7B2);
             border-radius: 100%;
             height: vw(110);
             width: vw(110);
             right: vw(55);
             top: vw(93);
+            @include max(sm) {
+                display: none;
+            }
         }
     }
 }

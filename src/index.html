@@ -11,8 +11,13 @@
 
 <body>
     <section class="main">
-        <img src="./icons/main-text-white.png" alt="main__text" class="main__text" data-aos="fade-down">
-        <img src="./icons/main-text-black.png" alt="main__text2" class="main__text2" data-aos="fade-down">
+        <div class="main__text">
+            <img src="./icons/main-text-white.png" alt="main__text" data-aos="fade-down">
+        </div>
+        
+        <div class="main__text2">
+            <img src="./icons/main-text-black.png" alt="main__text2" data-aos="fade-down">
+        </div>
         <div class="main__title" data-aos="zoom-in">
             <span>Как не идти на компромисс с болью и хорошо себя чувствовать в любой период жизни</span>
         </div>
@@ -26,6 +31,12 @@
             <img src="./icons/tablet-circle.png" alt="tablet-right">
         </div>
         <img src="./icons/main-line.png" alt="line" class="line" data-aos="fade-up">
+        <div class="line2">
+            <img src="./icons/main-line2.png" alt="line2" data-aos="fade-up">
+        </div>
+        <div class="line3">
+            <img src="./icons/main-line3.png" alt="line3" data-aos="fade-up">
+        </div>
     </section>
     <section class="descr">
         <p class="descr__text" data-aos="fade-down">
@@ -58,6 +69,12 @@
             </ul>
             <div class="tabs__content">
                 <div class="tabs__problems">
+                    <div class="tabs__problems_tablet-center" data-aos="fade-down-left">
+                        <img src="./icons/tablet.png" alt="tablet-center">
+                    </div>
+                    <div class="tabs__problems_tablet-right" data-aos="zoom-in">
+                        <img src="./icons/tablet-circle.png" alt="tablet-right">
+                    </div>
                     <div class="tabs__problems_age" data-aos="zoom-in"><span>18-35</span></div>
                     <div class="tabs__problems_info">
                         <div class="tabs__problems_title" data-aos="fade-down">Проблемы</div>
@@ -78,11 +95,16 @@
                     <div class="tabs__problems_shadow">
                         <img src="./icons/problem-shadow.png" alt="tabs__problems_shadow" data-aos="fade-up">
                     </div>
+                    <div class="tabs__problems_shadow2">
+                        <img src="./icons/problem-shadow2.png" alt="tabs__problems_shadow2" data-aos="fade-up">
+                    </div>
                 </div>
                 <div class="tabs__block" data-aos="zoom-in">
                     <div class="tabs__block_left">
-                        <div class="tabs__block_title" data-aos="fade-down">Личный опыт</div>
-                        <div class="tabs__block_name" data-aos="fade-down">Кристина, 23 года </div>
+                        <div class="tabs__block_left-right">
+                            <div class="tabs__block_title" data-aos="fade-down">Личный опыт</div>
+                            <div class="tabs__block_name" data-aos="fade-down">Кристина, 23 года </div>
+                        </div>
                         <div class="tabs__block_img" data-aos="zoom-in">
                             <img src="./icons/person1.png" alt="tabs__block_img">
                         </div>
@@ -119,13 +141,33 @@
                     <div class="tabs__line">
                         <img src="./icons/tabs-info-line.png" alt="tabs__line" data-aos="fade-up">
                     </div>
+                    <div class="tabs__line22">
+                        <img src="./icons/tabs-info-line2.png" alt="tabs__line2" data-aos="fade-up">
+                    </div>
                     <div class="tabs__tablet_right" data-aos="fade-down-left">
                         <img src="./icons/tablet-circle.png" alt="tabs__tablet_right">
                     </div>
                     <div class="tabs__info_title" data-aos="fade-down">Лайфхаки</div>
                     <ul class="tabs__list">
-                        <div class="tabs__shadow" data-aos="fade-right">
-                            <img src="./icons/tabs-info-shadow.png" alt="tabs__shadow">
+                        <div class="tabs__shadow" data-aos="fade-up">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="623" height="1049" viewBox="0 0 623 1049"
+                                fill="none">
+                                <g filter="url(#filter0_f_139_4836)">
+                                    <path
+                                        d="M299.144 682.145C247.144 826.145 -324.856 816.659 -462.356 760.587C-632.695 691.124 -694.233 551.413 -632.695 451.413C-536.695 295.413 79.1439 202.145 271.333 275.413C447.144 342.437 351.144 538.145 299.144 682.145Z"
+                                        fill="#FFC2D7" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_139_4836" x="-906" y="3.05176e-05" width="1528.47"
+                                        height="1048.69" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_139_4836" />
+                                    </filter>
+                                </defs>
+                            </svg>
                         </div>
                         <div class="tabs__tablet_left" data-aos="fade-up-right">
                             <img src="./icons/tablet.png" alt="tabs__tablet_left">
@@ -146,15 +188,18 @@
                             вызывают болевые ощущения.</li>
                         <li class="tabs__list_item" data-aos="fade-down">Помимо анализа на гормоны, стоит проверить
                             <span>уровень витаминов в
-                                крови</span>. Боль может усиливаться при дефиците магния или витаминов группы B</li>
+                                крови</span>. Боль может усиливаться при дефиците магния или витаминов группы B
+                        </li>
                         <li class="tabs__list_item" data-aos="fade-down">Примите <span>теплый (но не горячий) душ</span>
                             — он хорошо
                             расслабляет мышцы и снимает спазмы.</li>
                     </ul>
                     <div class="tabs__btns">
                         <a href="#" class="tabs__info_btn btn-spas" data-aos="fade-up">подобрать спазмолитик</a>
-                        <div class="tabs__info_btn2 tabs__head_tab tabs__tab" data-age="0" data-aos="fade-up">18-30</div>
-                        <div class="tabs__info_btn2 tabs__head_tab tabs__tab" data-age="1" data-aos="fade-up">31-45</div>
+                        <div class="tabs__info_btn2 tabs__head_tab tabs__tab" data-age="0" data-aos="fade-up">18-30
+                        </div>
+                        <div class="tabs__info_btn2 tabs__head_tab tabs__tab" data-age="1" data-aos="fade-up">31-45
+                        </div>
                         <div class="tabs__info_btn2 tabs__head_tab tabs__tab" data-age="2" data-aos="fade-up">45+</div>
                     </div>
                 </div>
@@ -173,17 +218,37 @@
                             сложно, особенно если вы руководитель или топ-менеджер. А от роли мамы и вовсе не существует
                             отпуска.
                         </div>
+                        <a href="#" class="tabs__block_btn btn-spas" data-aos="fade-up-left">подобрать спазмолитик</a>
+                        <div class="tabs__content_tablet">
+                            <div class="tabs__content_tablet-line" data-aos="fade-up">
+                                <img src="./icons/tab-content-line.png" alt="tablet-right">
+                            </div>
+                            <div class="tabs__content_tablet-left" data-aos="zoom-in">
+                                <img src="./icons/tablet-circle.png" alt="tablet-right">
+                            </div>
+                            <div class="tabs__content_tablet-center" data-aos="fade-down-left">
+                                <img src="./icons/tablet.png" alt="tablet-center">
+                            </div>
+                            <div class="tabs__content_tablet-right" data-aos="zoom-in">
+                                <img src="./icons/tablet-circle.png" alt="tablet-right">
+                            </div>
+                        </div>
                     </div>
                     <div class="tabs__problems_shadow">
                         <img src="./icons/problem-shadow.png" alt="tabs__problems_shadow" data-aos="fade-up">
                     </div>
+                    <div class="tabs__problems_shadow2">
+                        <img src="./icons/problem-shadow2.png" alt="tabs__problems_shadow2" data-aos="fade-up">
+                    </div>
                 </div>
 
-                <a href="#" class="tabs__btn_bottom btn-spas" data-aos="fade-up">подобрать спазмолитик</a>
                 <div class="tabs__block tabs__block2" data-aos="zoom-in">
                     <div class="tabs__block_left">
-                        <div class="tabs__block_title " data-aos="fade-down">Личный опыт</div>
-                        <div class="tabs__block_name" data-aos="fade-down">Екатерина, 38 лет</div>
+                        <div class="tabs__block_left-right">
+                            <div class="tabs__block_title " data-aos="fade-down">Личный опыт</div>
+                            <div class="tabs__block_name" data-aos="fade-down">Екатерина, 38 лет</div>
+
+                        </div>
                         <div class="tabs__block_img" data-aos="zoom-in">
                             <img src="./icons/person2.png" alt="tabs__block_img">
                         </div>
@@ -205,6 +270,8 @@
                             дротаверина, для меня этот компонент хорошо работает. Планирую заняться снижением стресса —
                             найти время на йогу, попробовать медитации и дыхательные техники.
                         </div>
+                        
+                        <a href="#" class="tabs__block_btn btn-spas" data-aos="fade-up-left">подобрать спазмолитик</a>
                         <div class="tabs__block_tablet-right1" data-aos="zoom-in">
                             <img src="./icons/tablet-circle.png" alt="tabs__block_tablet-right1">
                         </div>
@@ -217,32 +284,62 @@
                     <div class="tabs__line tabs__line2" data-aos="fade-up">
                         <img src="./icons/tabs-info-line.png" alt="tabs__line">
                     </div>
-                    <div class="tabs__tablet_right" data-aos="zoom-in"><img src="./icons/tablet-circle.png" alt="tabs__tablet_right"></div>
+                    <div class="tabs__line22">
+                        <img src="./icons/tabs-info-line2.png" alt="tabs__line2" data-aos="fade-up">
+                    </div>
+                    <div class="tabs__tablet_right" data-aos="zoom-in"><img src="./icons/tablet-circle.png"
+                            alt="tabs__tablet_right"></div>
                     <div class="tabs__info_title" data-aos="fade-down">Лайфхаки</div>
                     <ul class="tabs__list">
-                        <div class="tabs__shadow" data-aos="zoom-in-right">
-                            <img src="./icons/tabs-info-shadow.png" alt="tabs__shadow">
+                        <div class="tabs__shadow" data-aos="fade-up">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="623" height="1049" viewBox="0 0 623 1049"
+                                fill="none">
+                                <g filter="url(#filter0_f_139_4836)">
+                                    <path
+                                        d="M299.144 682.145C247.144 826.145 -324.856 816.659 -462.356 760.587C-632.695 691.124 -694.233 551.413 -632.695 451.413C-536.695 295.413 79.1439 202.145 271.333 275.413C447.144 342.437 351.144 538.145 299.144 682.145Z"
+                                        fill="#FFC2D7" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_139_4836" x="-906" y="3.05176e-05" width="1528.47"
+                                        height="1048.69" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_139_4836" />
+                                    </filter>
+                                </defs>
+                            </svg>
                         </div>
-                        <div class="tabs__tablet_left" data-aos="fade-up-right"><img src="./icons/tablet.png" alt="tabs__tablet_left"></div>
-                        <li class="tabs__list_item" data-aos="fade-down">Когда от нас требуется выполнять сразу несколько ролей (мамы, жены,
+                        <div class="tabs__tablet_left tabs__tablet_left2" data-aos="fade-up-right"><img src="./icons/tablet.png"
+                                alt="tabs__tablet_left"></div>
+                        <li class="tabs__list_item" data-aos="fade-down">Когда от нас требуется выполнять сразу
+                            несколько ролей (мамы, жены,
                             менеджера, подруги), действительно важно не забывать о своем состоянии и целенаправленно
                             бороться со стрессом. Обратите внимание на <span>режим сна и питание</span> — это основа
                             вашего самочувствия и гормонального баланса.</li>
-                        <li class="tabs__list_item" data-aos="fade-down">Во время ПМС может быть полезно сходить на <span>массаж</span> — он
+                        <li class="tabs__list_item" data-aos="fade-down">Во время ПМС может быть полезно сходить на
+                            <span>массаж</span> — он
                             снимет напряжение и успокоит нервную систему. Если даже после массажа остаются боль и
                             спазмы, помогут спазмолитики с дротаверином. Они <span>не вызывают сонливости</span> и
                             позволяют продолжать вести активную жизнь.</li>
-                        <li class="tabs__list_item" data-aos="fade-down">Уделяйте время себе: попробуйте найти хотя бы 10-15 минут на
+                        <li class="tabs__list_item" data-aos="fade-down">Уделяйте время себе: попробуйте найти хотя бы
+                            10-15 минут на
                             приятные вечерние ритуалы вроде <span>массажа лица</span>.</li>
-                        <li class="tabs__list_item" data-aos="fade-down">Если после рождения ребенка вы чувствуете себя тревожно или
+                        <li class="tabs__list_item" data-aos="fade-down">Если после рождения ребенка вы чувствуете себя
+                            тревожно или
                             подавленно, важно вовремя обратиться к психологу, чтобы не допустить развития
                             <span>послеродовой депрессии</span>.
                         </li>
                     </ul>
                     <ul class="tabs__head tabs__bottom">
-                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="0" data-aos="fade-right">18-30</li>
+                        
+                        <a href="#" class="tabs__info_btn btn-spas" data-aos="fade-up">подобрать спазмолитик</a>
+                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="0" data-aos="fade-right">18-30
+                        </li>
                         <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="1" data-aos="zoom-in">31-45</li>
-                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="2" data-aos="fade-left">46-50+</li>
+                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="2" data-aos="fade-left">45+
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -260,18 +357,37 @@
                             в этом возрасте многие только начинают жить для себя: карьера построена, дети выросли.
                             Важно, чтобы физиологические процессы не мешали получать удовольствие от новых возможностей.
                         </div>
+                        <a href="#" class="tabs__block_btn btn-spas" data-aos="fade-up-left">подобрать спазмолитик</a>
+                        <div class="tabs__content_tablet">
+                            <div class="tabs__content_tablet-line" data-aos="fade-up">
+                                <img src="./icons/tab-content-line.png" alt="tablet-right">
+                            </div>
+                            <div class="tabs__content_tablet-left" data-aos="zoom-in">
+                                <img src="./icons/tablet-circle.png" alt="tablet-right">
+                            </div>
+                            <div class="tabs__content_tablet-center" data-aos="fade-down-left">
+                                <img src="./icons/tablet.png" alt="tablet-center">
+                            </div>
+                            <div class="tabs__content_tablet-right" data-aos="zoom-in">
+                                <img src="./icons/tablet-circle.png" alt="tablet-right">
+                            </div>
+                        </div>
                     </div>
-                    <div class="tabs__problems_shadow" data-aos="fade-up">
-                        <img src="./icons/problem-shadow.png" alt="tabs__problems_shadow">
+                    <div class="tabs__problems_shadow">
+                        <img src="./icons/problem-shadow.png" alt="tabs__problems_shadow" data-aos="fade-up">
+                    </div>
+                    <div class="tabs__problems_shadow2">
+                        <img src="./icons/problem-shadow2.png" alt="tabs__problems_shadow2" data-aos="fade-up">
                     </div>
                 </div>
-                <a href="#" class="tabs__btn_bottom btn-spas " data-aos="fade-up">подобрать спазмолитик</a>
-                <div class="tabs__block" data-aos="zoom-in">
+                <div class="tabs__block tabs__block2" data-aos="zoom-in">
                     <div class="tabs__block_left">
-                        <div class="tabs__block_title" data-aos="fade-down">Личный опыт</div>
-                        <div class="tabs__block_name" data-aos="fade-down">Татьяна, 58 лет</div>
+                        <div class="tabs__block_left-right">
+                            <div class="tabs__block_title" data-aos="fade-down">Личный опыт</div>
+                            <div class="tabs__block_name" data-aos="fade-down">Татьяна, 58 лет</div>
+                        </div>
                         <div class="tabs__block_img" data-aos="zoom-in">
-                            <img src="./icons/person2.png" alt="tabs__block_img">
+                            <img src="./icons/person3.png" alt="tabs__block_img">
                         </div>
                     </div>
                     <div class="tabs__block_right">
@@ -283,6 +399,8 @@
                             ночь травяной сбор, а когда появлялись неприятные боли в животе, на помощь приходит препарат
                             с дротаверином.
                         </div>
+                        
+                        <a href="#" class="tabs__block_btn btn-spas" data-aos="fade-up-left">подобрать спазмолитик</a>
                         <div class="tabs__block_tablet-center1" data-aos="zoom-in">
                             <img src="./icons/tablet-circle.png" alt="tabs__block_tablet-center1">
                         </div>
@@ -298,32 +416,61 @@
                     <div class="tabs__line tabs__line2" data-aos="fade-up">
                         <img src="./icons/tabs-info-line.png" alt="tabs__line">
                     </div>
-                    <div class="tabs__tablet_right" data-aos="zoom-in"><img src="./icons/tablet-circle.png" alt="tabs__tablet_right"></div>
+                    <div class="tabs__line22">
+                        <img src="./icons/tabs-info-line2.png" alt="tabs__line2" data-aos="fade-up">
+                    </div>
+                    <div class="tabs__tablet_right" data-aos="zoom-in"><img src="./icons/tablet-circle.png"
+                            alt="tabs__tablet_right"></div>
                     <div class="tabs__info_title" data-aos="fade-down">Лайфхаки</div>
                     <ul class="tabs__list">
 
                         <div class="tabs__shadow" data-aos="fade-up">
-                            <img src="./icons/tabs-info-shadow.png" alt="tabs__shadow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="623" height="1049" viewBox="0 0 623 1049"
+                                fill="none">
+                                <g filter="url(#filter0_f_139_4836)">
+                                    <path
+                                        d="M299.144 682.145C247.144 826.145 -324.856 816.659 -462.356 760.587C-632.695 691.124 -694.233 551.413 -632.695 451.413C-536.695 295.413 79.1439 202.145 271.333 275.413C447.144 342.437 351.144 538.145 299.144 682.145Z"
+                                        fill="#FFC2D7" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_139_4836" x="-906" y="3.05176e-05" width="1528.47"
+                                        height="1048.69" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_139_4836" />
+                                    </filter>
+                                </defs>
+                            </svg>
                         </div>
-                        <div class="tabs__tablet_left"><img src="./icons/tablet.png" alt="tabs__tablet_left"></div>
-                        <li class="tabs__list_item" data-aos="fade-down">В период менопаузы из-за уменьшение количества женских гормонов в
+                        <div class="tabs__tablet_left tabs__tablet_left2"><img src="./icons/tablet.png" alt="tabs__tablet_left"></div>
+                        <li class="tabs__list_item" data-aos="fade-down">В период менопаузы из-за уменьшение количества
+                            женских гормонов в
                             крови снижается плотность костей. Сохранить ее поможет <span>физическая активность</span> —
                             лучше всего в этом случае работают силовые нагрузки.</li>
-                        <li class="tabs__list_item" data-aos="fade-down">Проконсультируйтесь с врачом, нужна ли вам <span>заместительная
+                        <li class="tabs__list_item" data-aos="fade-down">Проконсультируйтесь с врачом, нужна ли вам
+                            <span>заместительная
                                 гормональная терапия</span>. Также он может порекомендовать добавки, которые особенно
                             полезны в период менопаузы: витамин D, кальций, омега-3.
-                        <li class="tabs__list_item" data-aos="fade-down">Справиться с приливами можно с помощью <span>контрастного душа, бани
+                        <li class="tabs__list_item" data-aos="fade-down">Справиться с приливами можно с помощью
+                            <span>контрастного душа, бани
                                 или сауны</span>.</li>
-                        <li class="tabs__list_item" data-aos="fade-down">Кофеин и алкоголь сушат кожу, которая и так страдает в менопаузу
+                        <li class="tabs__list_item" data-aos="fade-down">Кофеин и алкоголь сушат кожу, которая и так
+                            страдает в менопаузу
                             из-за потери влаги. Постарайтесь их ограничить.</li>
-                        <li class="tabs__list_item" data-aos="fade-down">От болей внизу живота выбирайте спазмолитики, которые <span>не
+                        <li class="tabs__list_item" data-aos="fade-down">От болей внизу живота выбирайте спазмолитики,
+                            которые <span>не
                                 оказывают токсического действия</span> на печень и почки. Один из самых безопасных
                             вариантов — препараты с дротаверином.</li>
                     </ul>
                     <ul class="tabs__head tabs__bottom">
-                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="0" data-aos="fade-right">18-30</li>
+                        <a href="#" class="tabs__info_btn btn-spas" data-aos="fade-up">подобрать спазмолитик</a>
+                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="0" data-aos="fade-right">18-30
+                        </li>
                         <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="1" data-aos="zoom-in">31-45</li>
-                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="2" data-aos="fade-left">46-50+</li>
+                        <li class="tabs__head_tab tabs__bottom_tab tabs__tab" data-age="2" data-aos="fade-left">45+
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -334,8 +481,12 @@
             <div class="calc__text">
                 <div class="calc__text_shadow" data-aos="zoom-in"></div>
                 <span class="test" data-aos="fade-down">тест</span>
-                <img src="./icons/text-test.png" alt="calc__text" data-aos="fade-down">
+                <img src="./icons/text-test.png" alt="calc__text" data-aos="fade-down" class="calc__text_test-img">
+                <div class="line2">
+                    <img src="./icons/calc-line2.png" alt="line2" data-aos="fade-up">
+                </div>
                 <div class="calc__title" data-aos="zoom-in">
+
                     <span>
                         А как выглядит ваша боль? Ответив на несколько вопросов, можно визуализировать ее и понять, как
                         именно
@@ -343,12 +494,12 @@
                     </span>
                 </div>
             </div>
-            <div class="calc__go" data-aos="fade-down">
+            <a href="#test" class="calc__go" data-aos="fade-down">
                 пройти
                 <div class="calc__arrow" data-aos="zoom-in-down">
                     <img src="./icons/Arrow.png" alt="calc__arrow">
                 </div>
-            </div>
+            </a>
             <div class="calc__tablet_left-top" data-aos="zoom-in">
                 <img src="./icons/tablet-circle.png" alt="calc__tablet_left-top">
             </div>
@@ -367,15 +518,35 @@
         </div>
 
         <div class="calc__test">
-            <div class="calc__test_block">
+            <div class="calc__test_block" id="test">
                 <div class="calc__test_block_wrap" data-aos="fade-down">
+                    <div class="line112">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="763" height="576" viewBox="0 0 763 576"
+                            fill="none">
+                            <g filter="url(#filter0_f_139_4800)">
+                                <path
+                                    d="M703 524C694.406 478.249 674.983 351.853 619.208 351.853C554.752 351.853 526.252 512.368 467.093 512.368C402.638 512.368 347.206 261.127 313.689 209.948C280.172 158.77 218.295 140.159 162.863 209.948C106.489 280.925 119.069 490.269 23.6396 490.269C-56.2851 490.269 -85.9346 323.938 -101.404 273.922C-120.471 212.275 -137.046 176.217 -168.438 176.217C-200.665 176.217 -236.474 250.234 -243.206 273.922C-256.097 319.285 -289.24 501.9 -345.046 501.9C-399.188 501.9 -511.341 140.159 -535.834 98.2855C-560.327 56.412 -579.663 57.5751 -599 62.2278"
+                                    stroke="#FFC2D7" stroke-width="20" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_f_139_4800" x="-651.34" y="0.000244141" width="1414.17"
+                                    height="575.846" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                                    <feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_139_4800" />
+                                </filter>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="shadow112"></div>
                     <h5 class="calc__test_subtitle" data-aos="fade-down">Как часто вас беспокоят боли?</h5>
 
-                    <div class="calc__test_item" data-calc="1">Несколько раз в год во время месячных, но не в каждом цикле</div>
+                    <div class="calc__test_item" data-calc="1">Несколько раз в год во время месячных, но не в каждом
+                        цикле</div>
                     <div class="calc__test_item" data-calc="2">Каждый месяц</div>
                     <div class="calc__test_item calc__test_item-active" data-calc="3">Почти всегда</div>
                 </div>
-                <div class="calc__line_shadow-left" >
+                <div class="calc__line_shadow-left">
                     <img src="./icons/line-shadow-calc-left.png" alt="calc__line_shadow-left" data-aos="fade-up">
                 </div>
 
@@ -387,6 +558,23 @@
                 </div>
             </div>
             <div class="calc__test_block">
+                <div class="lineall112">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="634" height="264" viewBox="0 0 634 264" fill="none">
+                        <g filter="url(#filter0_f_139_4795)">
+                            <path
+                                d="M10 249C33.1928 249 30.9383 109.99 59.3184 109.99C88.2756 109.99 72.0407 249 104.976 249C140.951 249 118.05 70.604 153.487 70.604C176.408 70.604 151.135 249 202.5 249C245.187 249 212.657 59.0198 236.241 59.0198C257.583 59.0198 236.241 249 284.752 249C333.263 249 303.85 15 353.238 15C403.697 15 352.333 249 403.697 249C455.062 249 394.026 59.0198 461.675 59.0198C513.039 59.0198 465.959 249 510.964 249C553.768 249 513.04 109.99 555.843 109.99C595.644 109.99 547.732 249 599.096 249C640.188 249 587.233 15 638.598 15C689.962 15 648.493 249 691.867 249C735.242 249 689.962 38.1683 733.035 38.1683C776.107 38.1683 741.3 249 786.958 249C832.615 249 796.298 70.604 841.202 70.604C886.107 70.604 852.334 249 879.729 249C907.123 249 874.568 109.99 914.518 109.99C954.468 109.99 924.159 249 946.988 249C975.524 249 955.346 38.1683 1001 38.1683C1037.53 38.1683 1012.45 249 1046.72 249C1080.98 249 1071.65 95.9109 1108.76 95.9109C1145.87 95.9109 1139.49 188.662 1165 249"
+                                stroke="#F5DEF5" stroke-width="10" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_f_139_4795" x="0" y="0" width="1179.61" height="264"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                                <feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_139_4795" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </div>
                 <div class="calc__test_block_wrap" data-aos="fade-down">
                     <h5 class="calc__test_subtitle" data-aos="fade-down">Давно ли они появились?</h5>
 
@@ -407,12 +595,30 @@
                     <h5 class="calc__test_subtitle" data-aos="fade-down">Где они локализуются?</h5>
 
                     <div class="calc__test_item" data-calc="1">Внизу живота</div>
-                    <div class="calc__test_item" data-calc="2">Источник боли внизу живота, но она распространяется дальше, отдает в
+                    <div class="calc__test_item" data-calc="2">Источник боли внизу живота, но она распространяется
+                        дальше, отдает в
                         спину или ноги</div>
                     <div class="calc__test_item" data-calc="3">Как будто болит все тело — даже голова</div>
                 </div>
 
                 <div class="calc__test3_shadow"></div>
+                <div class="lineall221">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="314" height="482" viewBox="0 0 314 482" fill="none">
+                        <g filter="url(#filter0_f_139_4802)">
+                            <path
+                                d="M-1928 466.114C-1883.29 466.114 -1887.63 198.126 -1832.92 198.126C-1777.1 198.126 -1808.4 466.114 -1744.9 466.114C-1675.55 466.114 -1719.7 122.196 -1651.38 122.196C-1607.19 122.196 -1655.91 466.114 -1556.89 466.114C-1474.6 466.114 -1537.31 99.8631 -1491.84 99.8631C-1450.7 99.8631 -1491.84 466.114 -1398.32 466.114C-1304.8 466.114 -1361.5 14.9999 -1266.29 15C-1169.02 15.0001 -1268.04 466.114 -1169.02 466.114C-1069.99 466.114 -1187.66 99.8631 -1057.24 99.8631C-958.221 99.8631 -1048.98 466.114 -962.222 466.114C-879.703 466.114 -958.221 198.126 -875.702 198.126C-798.974 198.126 -891.34 466.114 -792.317 466.114C-713.099 466.114 -815.188 15 -716.165 15C-617.142 15 -697.089 466.114 -613.469 466.114C-529.85 466.114 -617.142 59.6648 -534.106 59.6648C-451.069 59.6648 -518.171 466.114 -430.151 466.114C-342.13 466.114 -412.144 122.196 -325.576 122.196C-239.007 122.196 -304.115 466.114 -251.303 466.114C-198.491 466.114 -261.253 198.126 -184.235 198.126C-107.217 198.126 -165.648 466.114 -121.638 466.114C-66.6256 466.114 -105.525 59.6648 -17.5046 59.6648C52.9116 59.6648 4.56551 466.114 70.623 466.114C136.68 466.114 118.688 170.983 190.227 170.983C261.766 170.983 249.471 349.792 298.654 466.114"
+                                stroke="#DAC3DA" stroke-width="10" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_f_139_4802" x="-1938" y="0" width="2251.26" height="481.114"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                                <feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_139_4802" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </div>
                 <div class="calc__test3_tablet-circle" data-aos="zoom-in">
                     <img src="./icons/tablet-circle.png" alt="calc__test3_tablet-circle">
                 </div>
@@ -428,8 +634,10 @@
                     <h5 class="calc__test_subtitle" data-aos="fade-down">Как ощущается боль?</h5>
 
                     <div class="calc__test_item" data-calc="1">Похожа на редкие спазмы</div>
-                    <div class="calc__test_item" data-calc="2">Сильные тянущие ощущения, которые почти не прекращаются</div>
-                    <div class="calc__test_item" data-calc="3">Боль такая сильная и острая, что я не могу заниматься повседневными
+                    <div class="calc__test_item" data-calc="2">Сильные тянущие ощущения, которые почти не прекращаются
+                    </div>
+                    <div class="calc__test_item" data-calc="3">Боль такая сильная и острая, что я не могу заниматься
+                        повседневными
                         делами</div>
                 </div>
 
@@ -444,7 +652,8 @@
                 <div class="calc__test_block_wrap" data-aos="fade-down">
                     <h5 class="calc__test_subtitle" data-aos="fade-down">Помогает ли что-то от нее?</h5>
 
-                    <div class="calc__test_item" data-calc="1">Да, теплого душа или легкой растяжки вполне достаточно</div>
+                    <div class="calc__test_item" data-calc="1">Да, теплого душа или легкой растяжки вполне достаточно
+                    </div>
                     <div class="calc__test_item" data-calc="2">Мне помогают обезболивающие препараты</div>
                     <div class="calc__test_item" data-calc="3">Почти ничего не помогает</div>
                 </div>
@@ -455,19 +664,24 @@
                 <div class="calc__test4_lineall" data-aos="fade-up">
                     <img src="./icons/tabs5-line-all.png" alt="calc__test4_lineall">
                 </div>
+                <div class="calc__test4_lineall2" data-aos="fade-up">
+                    
+                    <img src="./icons/tabs5-line-all2.png" alt="calc__test4_lineall2">
+                </div>
+                
                 <div class="calc__test4_tablet" data-aos="zoom-in">
                     <img src="./icons/tablet-circle.png" alt="calc__test4_tablet">
                 </div>
                 <div class="calc__test4_shadow"></div>
             </div>
-            <div class="calc__result">
+            <a href="#result" class="calc__result">
                 показать результаты
                 <div class="calc__arrow">
                     <img src="./icons/Arrow.png" alt="calc__arrow">
                 </div>
-            </div>
+            </a>
         </div>
-        <div class="calc__res">
+        <div class="calc__res" id="result">
             <div class="calc__res_item">
                 <div class="calc__res_image">
                     <img src="./icons/tabs-image-1.png" alt="calc__res_image">
@@ -475,7 +689,9 @@
                 <div class="calc__res_info">
                     <div class="calc__res_title">Твоя боль — как облако, заслоняющее солнце.</div>
                     <p class="calc__res_descr">
-                        Да, в ней мало приятного, но она абсолютно нормальна и не несет вреда — это обычный физиологический процесс. Но и терпеть ее не стоит. Могут помочь спазмолитики, не оказывающие системного действия на организм — например, дротаверин.
+                        Да, в ней мало приятного, но она абсолютно нормальна и не несет вреда — это обычный
+                        физиологический процесс. Но и терпеть ее не стоит. Могут помочь спазмолитики, не оказывающие
+                        системного действия на организм — например, дротаверин.
                     </p>
                     <a href="/" class="calc__res_link btn">подобрать спазмолитик</a>
                 </div>
@@ -487,7 +703,9 @@
                 <div class="calc__res_info">
                     <div class="calc__res_title">Твоя боль — как грозовая туча.</div>
                     <p class="calc__res_descr">
-                        Она пугает и заставляет искать хотя бы какой-то способ, чтобы защититься от нее: убежать, найти укрытие, переждать. Эффективно поможет действенный препарат на основе дротаверина, которое быстро снимает болезненные спазмы.
+                        Она пугает и заставляет искать хотя бы какой-то способ, чтобы защититься от нее: убежать, найти
+                        укрытие, переждать. Эффективно поможет действенный препарат на основе дротаверина, которое
+                        быстро снимает болезненные спазмы.
                     </p>
                     <a href="/" class="calc__res_link btn">подобрать спазмолитик</a>
                 </div>
@@ -499,7 +717,9 @@
                 <div class="calc__res_info">
                     <div class="calc__res_title">Твоя боль похожа на ураган.</div>
                     <p class="calc__res_descr">
-                        Она пугает, сковывает и неотвратимо надвигается — кажется, что никто и ничто не в состоянии тебя спасти. Но спасение есть — правильное обезболивающее. В твоем случае это может быть средство с дротаверином, которое почти мгновенно избавит тебя от спазмов.
+                        Она пугает, сковывает и неотвратимо надвигается — кажется, что никто и ничто не в состоянии тебя
+                        спасти. Но спасение есть — правильное обезболивающее. В твоем случае это может быть средство с
+                        дротаверином, которое почти мгновенно избавит тебя от спазмов.
                     </p>
                     <a href="/" class="calc__res_link btn">подобрать спазмолитик</a>
                 </div>
