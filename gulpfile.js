@@ -124,4 +124,4 @@ gulp.task('images', function () {
       .pipe(browsersync.stream());
 });
 
-gulp.task('default', gulp.parallel('watch', "build", "watch1", "html", 'styles', 'icons', 'images'));
+gulp.task('default', gulp.parallel('watch', "build", "watch1", "html", 'styles', 'icons', 'images', 'fonts'));
